@@ -1,0 +1,180 @@
+start: about us styles */
+.about-us {
+    background-color: #D1E0EB;
+    color: #1C5087;
+    text-align: center;
+    padding: 75px 10px 60px;
+}
+
+.about-us h1 {
+    margin-bottom: 50px;
+}
+
+.about-us p {
+    max-width: 640px;
+    font-size: 0.85em;
+    margin: 0 auto 100px;
+    line-height: 1.5em;
+}
+
+.about-us button {
+    background-color: #1C5087;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    padding: 8px 30px;
+}
+/* end: about us styles */
+
+/* start: bottomHeader styles */
+.bottomHeader {
+    background-color: #1C5087;
+    padding: 75px 0 60px;
+}
+
+.bottomHeader h1 {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.bottomHeader .flex {
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.contact-form {
+    width: 400px;
+    padding: 0 10px 0 50px;
+}
+/* end: contact us styles */
+
+/* start: footer styles */
+#content{
+    min-height: calc(100vh - 40px);
+}
+
+footer {
+    background-color: #1C5087;
+    padding: 75px 0 60px;
+    color: #fff;
+    /* position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 20px; */
+}
+
+footer .flex {
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+/* end: footer styles */
+
+/* start: media queries */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .box {
+        width: 100%;
+        margin: 40px 0;
+        box-sizing: border-box;
+    }
+
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer ul {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 651px) {
+    nav ul {
+        display: block !important;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #1C5087;
+        top: 100%;
+        z-index: 3;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        padding: 15px 0 5px;
+        border-top: 1px solid #fff;
+    }
+
+    nav ul li a {
+        font-size: 1.5em;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .header-bar {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 0.75em;
+    }
+
+    .header-bar {
+        position: static;
+    }
+}
+/* end: media queries

@@ -1,0 +1,181 @@
+* {     
+    padding: 0;
+    margin: 0; 
+}
+
+#wrapper {
+    font-family: 'Roboto', 'helvetica', 'sans-serif';
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* start: header styles */
+header {
+    background-color: #1C5087;
+    padding: 20px;
+    position: relative;
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.logo span {
+    color: #00BD9D;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 0.75em;
+    margin: 0 12px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+/* start: bottomHeader styles */
+.bottomHeader {
+    background-color: #1C5087;
+    padding: 75px 0 60px;
+}
+
+.bottomHeader h1 {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.bottomHeader .flex {
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.contact-form {
+    width: 400px;
+    padding: 0 10px 0 50px;
+}
+/* end: contact us styles */
+
+/* start: footer styles */
+#content{
+    min-height: calc(100vh - 40px);
+}
+
+footer {
+    background-color: #1C5087;
+    padding: 75px 0 60px;
+    color: #fff;
+    /* position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 20px; */
+}
+
+footer .flex {
+    max-width: 100%;
+    justify-content: space-between;
+    
+}
+
+/* end: footer styles */
+
+/* Category Tabs */
+* {
+    box-sizing: border-box; 
+   }
+   body {
+     margin: 0;
+   }
+   #main {
+     display: flex;
+     min-height: calc(100vh - 40vh);
+     padding:20px
+     
+   }
+   #main > article {
+     flex: 1;
+     border-right: 1px solid black;
+   }
+   #main > nav, 
+   #main > aside {
+     flex: 0 0 20vw;
+     
+   }
+   #main > nav {
+     order: -1;
+   }
+    article, nav, aside {
+     padding: 1em;
+     
+   }
+  
+/* end of category */
+
+
+
